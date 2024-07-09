@@ -82,4 +82,4 @@ pySet.remove("cherry1")
 print(pySet)
 pySet.clear()
 print(pySet)
-
+print(len(pySet))
