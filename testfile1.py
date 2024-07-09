@@ -9,4 +9,9 @@ def test_answer():
     assert func(3) == 4
 
 def test_answer1():
-        assert func(3) == 4
+        assert func(5) == 6
+
+
+def test_answer2():
+    assert func(6) == 4
+
