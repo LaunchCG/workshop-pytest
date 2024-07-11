@@ -1,11 +1,11 @@
-# pydic={
-#     "key1":"val1",
-#     "key2":"val2",
-#     "key3":"val3"
-# }
-# print(pydic)
-# print(pydic.keys())
-#
+pydic={
+    "key1":"val1",
+    "key2":"val2",
+    "key3":"val3"
+}
+print(pydic)
+print(pydic.keys())
+
 dicCar = {
     "brand":"Hyundai",
     "model":"i10",
@@ -13,13 +13,13 @@ dicCar = {
     "color":"grey",
     "mileage":1000
 }
-# print(dicCar)
-# # print(dicCar["brand"])
-# # print(dicCar.get("color"))
-# # print(dicCar["brand1"])
-# # print(dicCar.get("color1"))
-# dicCar["year"]=2022
-# print(dicCar)
+print(dicCar)
+print(dicCar["brand"])
+print(dicCar.get("color"))
+print(dicCar["brand1"])
+print(dicCar.get("color1"))
+dicCar["year"]=2022
+print(dicCar)
 #
 # for i in dicCar:
 #     print(i)
