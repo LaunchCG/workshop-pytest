@@ -8,7 +8,7 @@ chromedriver_path = r"D:\Python\drivers\chrome-win64\chrome-win64\chromedriver"
 service = Service(executable_path=chromedriver_path)
 
 # Initialize the WebDriver with the Service object
-driver = webdriver.Chrome(service)
+driver = webdriver.Chrome(service=service)
 
 # Your test case code here
 
