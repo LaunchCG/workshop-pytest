@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="Adding Files">
-      <change afterPath="$PROJECT_DIR$/pythonlearning/collections2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonlearning/functionsinpy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonlearning/oops.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practisePython.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonlearning/practisePython.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonlearning/functionsinpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonlearning/functionsinpy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,18 +29,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "PradeepKumarReddyEdara"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PradeepKumarReddyEdara&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LaunchCG/workshop-pytest",
-    "accountId": "dfddb6c0-96d5-4acc-8aa6-2b96fcb8cd34"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LaunchCG/workshop-pytest&quot;,
+    &quot;accountId&quot;: &quot;dfddb6c0-96d5-4acc-8aa6-2b96fcb8cd34&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -62,6 +61,7 @@
     "Python.collectionspractise (1).executor": "Run",
     "Python.functionsinpy.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.oops.executor": "Run",
     "Python.practisePython.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -80,7 +80,7 @@
       <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\pythonlearning" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.functionsinpy">
+  <component name="RunManager" selected="Python.oops">
     <configuration name="collections2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PytestWorkshop" />
       <option name="ENV_FILES" value="" />
@@ -142,6 +142,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="oops" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PytestWorkshop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonlearning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonlearning/oops.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.oops" />
         <item itemvalue="Python.functionsinpy" />
         <item itemvalue="Python.collections2" />
         <item itemvalue="Python.practisePython" />
         <item itemvalue="Python.practisePython" />
-        <item itemvalue="Python tests.Python tests in testfile1.py" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +261,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714050768979</updated>
-      <workItem from="1720510528672" duration="16874000" />
+      <workItem from="1720510528672" duration="16922000" />
+      <workItem from="1720604398830" duration="9319000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup">
       <option name="closed" value="true" />
@@ -272,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720526570234</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding Files">
+      <option name="closed" value="true" />
+      <created>1720535383142</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720535383142</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +333,7 @@
     <SUITE FILE_PATH="coverage/workshop_pytest$collections.coverage" NAME="collections Coverage Results" MODIFIED="1720513023541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/workshop_pytest$main.coverage" NAME="main Coverage Results" MODIFIED="1720510609889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/workshop_pytest$.coverage" NAME=" Coverage Results" MODIFIED="1720524903227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/workshop_pytest$functionsinpy.coverage" NAME="functionsinpy Coverage Results" MODIFIED="1720534727093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonlearning" />
+    <SUITE FILE_PATH="coverage/workshop_pytest$functionsinpy.coverage" NAME="functionsinpy Coverage Results" MODIFIED="1720610650861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonlearning" />
+    <SUITE FILE_PATH="coverage/workshop_pytest$oops.coverage" NAME="oops Coverage Results" MODIFIED="1720691163578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonlearning" />
   </component>
 </project>

@@ -33,4 +33,15 @@ dicCar = {
 }
 fun6(dicCar)
 
+def greetings(name,msg):
+    print(name+" "+msg)
+
+greetings(name="pradeep",msg="hello")
+greetings(msg="hello",name="pradeep")
+
+def my_func(a,b,c):
+    print(a,b,c)
+my_func(10,20,30 )
+
+
 
