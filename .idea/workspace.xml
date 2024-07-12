@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="initial setup" />
+    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="code added">
+      <change afterPath="$PROJECT_DIR$/basecsOfSelenium/chkBoxNRadiobtnHandling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics_python/ChildImp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics_python/datatypeandvar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytestDemo/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PytestWorkshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PytestWorkshop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testfile1.py" beforeDir="false" afterPath="$PROJECT_DIR$/testfile1.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,14 +38,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for LIstDatatypesdemo.testListdemo.executor": "Run",
+    "Python tests.Python tests for datatypeandvar.test_demo.executor": "Run",
+    "Python tests.Python tests for fixturesDemo.TestFixtureDemo.executor": "Run",
+    "Python tests.Python tests for fixturesDemo.test_fixtureDemo.executor": "Run",
+    "Python tests.Python tests for test_demo1.test_crossBrowser.executor": "Run",
+    "Python tests.Python tests for test_demo2.test_first.executor": "Run",
+    "Python tests.Python tests for test_demo2.test_sec_program.executor": "Run",
+    "Python tests.Python tests for test_e2e.Testone.executor": "Run",
+    "Python tests.Python tests for test_e2e.Testone.test_e2e.executor": "Run",
+    "Python tests.Python tests for test_fixturesData.TestExample.test_editProfile.executor": "Run",
+    "Python tests.Python tests for test_logsDemo.test_logging.executor": "Run",
+    "Python tests.Python tests for testfile1.test_answer.executor": "Run",
+    "Python tests.Python tests for tuples_dictionary_datatypes_demo.test_dictio.executor": "Run",
+    "Python tests.Python tests for tuples_dictionary_datatypes_demo.test_tuplesdemo.executor": "Run",
+    "Python tests.Python tests in datatypeandvar.py.executor": "Run",
+    "Python tests.Python tests in fixturesDemo.py.executor": "Run",
+    "Python tests.Python tests in test_demo1.py.executor": "Run",
+    "Python tests.Python tests in test_demo2.py.executor": "Run",
+    "Python tests.Python tests in test_e2e.py.executor": "Run",
+    "Python tests.Python tests in test_fixturesData.py.executor": "Run",
+    "Python tests.Python tests in test_logsDemo.py.executor": "Run",
+    "Python tests.Python tests in testfile1.py.executor": "Run",
+    "Python tests.Python tests in tuples_dictionary_datatypes_demo.py.executor": "Run",
+    "Python.ChildImp.executor": "Run",
+    "Python.ExceptionsPython.executor": "Run",
+    "Python.OopsDemo.executor": "Run",
+    "Python.StringsDemo.executor": "Run",
+    "Python.actionsDemo.executor": "Run",
+    "Python.autoSuggestionDDL.executor": "Run",
+    "Python.chkBoxHandling.executor": "Run",
+    "Python.chkBoxNRadiobtnHandling (1).executor": "Run",
+    "Python.chromeOptionsDemo.executor": "Run",
+    "Python.conditionsinpy.executor": "Run",
+    "Python.conftest.executor": "Run",
+    "Python.demoBrowser.executor": "Run",
+    "Python.e2eTest.executor": "Run",
+    "Python.explicitWaitNList.executor": "Run",
+    "Python.framesDemo.executor": "Run",
+    "Python.fuctionsdemo.executor": "Run",
+    "Python.handleJSAlerts.executor": "Run",
+    "Python.jsDemo.executor": "Run",
+    "Python.loopsinpyt.executor": "Run",
+    "Python.readFileDemo (1).executor": "Run",
+    "Python.readWrite.executor": "Run",
+    "Python.sortingTables.executor": "Run",
+    "Python.testlogsDemo.executor": "Run",
+    "Python.waitDemo.executor": "Run",
+    "Python.waitsDemo (1).executor": "Run",
+    "Python.whiledemo.executor": "Run",
+    "Python.windowsDemo.executor": "Run",
+    "Python.writeFile.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "RameshKaramthotJuly2024",
+    "last_opened_file_path": "C:/Users/RameshKaramthot/PycharmProjects/workshop-pytest/pytestDemo",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\RameshKaramthot\PycharmProjects\workshop-pytest\pytestDemo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\RameshKaramthot\PycharmProjects\workshop-pytest\basics_python" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_e2e.Testone.test_e2e">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PytestWorkshop" />
       <option name="ENV_FILES" value="" />
@@ -52,11 +129,95 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_e2e.Testone" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PytestWorkshop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_e2e.Testone&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_e2e.Testone.test_e2e" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PytestWorkshop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_e2e.Testone.test_e2e&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_fixturesData.TestExample.test_editProfile" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PytestWorkshop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_fixturesData.TestExample.test_editProfile&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_logsDemo.test_logging" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PytestWorkshop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_logsDemo.test_logging&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_e2e.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PytestWorkshop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_e2e.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_e2e.Testone.test_e2e" />
+        <item itemvalue="Python tests.Python tests in test_e2e.py" />
+        <item itemvalue="Python tests.Python tests for test_e2e.Testone" />
+        <item itemvalue="Python tests.Python tests for test_fixturesData.TestExample.test_editProfile" />
+        <item itemvalue="Python tests.Python tests for test_logsDemo.test_logging" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
       </set>
     </attachedChunks>
   </component>
@@ -77,12 +238,30 @@
       <option name="project" value="LOCAL" />
       <updated>1714051071694</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes in testfile1.py">
+      <option name="closed" value="true" />
+      <created>1720083325154</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720083325155</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changes in testfile1.py">
+      <option name="closed" value="true" />
+      <created>1720083368102</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720083368102</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial setup" />
+    <MESSAGE value="Changes in testfile1.py" />
+    <MESSAGE value="code added" />
+    <option name="LAST_COMMIT_MESSAGE" value="code added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
