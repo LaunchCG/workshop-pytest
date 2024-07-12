@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="Adding Files">
+    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="First Test Case">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonlearning/firsttestcase.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonlearning/firsttestcase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonlearning/firsttestcase.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,37 +52,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests in testfile1.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.collections.executor&quot;: &quot;Run&quot;,
-    &quot;Python.collections2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.collectionspractise (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.firsttestcase.executor&quot;: &quot;Run&quot;,
-    &quot;Python.functionsinpy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.inheritance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.oops.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practisePython.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;PradeepEdaraJuly2024&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in testfile1.py.executor": "Run",
+    "Python.FirstTestCase.executor": "Run",
+    "Python.collections.executor": "Run",
+    "Python.collections2.executor": "Run",
+    "Python.collectionspractise (1).executor": "Run",
+    "Python.firsttestcase.executor": "Run",
+    "Python.functionsinpy.executor": "Run",
+    "Python.inheritance.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.oops.executor": "Run",
+    "Python.practisePython.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "PradeepEdaraJuly2024",
+    "last_opened_file_path": "C:/Users/PradeepKumarReddyEda/PycharmProjects/workshop-pytest/pythonlearning",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\pythonlearning" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\pythonlearning" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.firsttestcase">
-    <configuration name="collections2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.FirstTestCase">
+    <configuration name="FirstTestCase" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PytestWorkshop" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,12 +96,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonlearning" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\pythonlearning\collections2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonlearning/FirstTestCase.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,36 +225,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practisePython" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PytestWorkshop" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\practisePython.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FirstTestCase" />
         <item itemvalue="Python.firsttestcase" />
         <item itemvalue="Python.inheritance" />
         <item itemvalue="Python.oops" />
         <item itemvalue="Python.functionsinpy" />
-        <item itemvalue="Python.collections2" />
       </list>
     </recent_temporary>
   </component>
@@ -273,6 +255,7 @@
       <workItem from="1720604398830" duration="18056000" />
       <workItem from="1720709503112" duration="104000" />
       <workItem from="1720773825787" duration="3442000" />
+      <workItem from="1720786731051" duration="2677000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup">
       <option name="closed" value="true" />
@@ -346,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720709552504</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="First Test Case">
+      <option name="closed" value="true" />
+      <created>1720786830188</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720786830188</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,10 +357,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial setup" />
     <MESSAGE value="Adding Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Files" />
+    <MESSAGE value="First Test Case" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Test Case" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/workshop_pytest$firsttestcase.coverage" NAME="firsttestcase Coverage Results" MODIFIED="1720775426305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonlearning" />
+    <SUITE FILE_PATH="coverage/workshop_pytest$firsttestcase.coverage" NAME="firsttestcase Coverage Results" MODIFIED="1720787997758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonlearning" />
     <SUITE FILE_PATH="coverage/workshop_pytest$collections2.coverage" NAME="collections2 Coverage Results" MODIFIED="1720531955387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/workshop_pytest$practisePython.coverage" NAME="practisePython Coverage Results" MODIFIED="1720527861432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/workshop_pytest$collectionspractise__1_.coverage" NAME="collectionspractise (1) Coverage Results" MODIFIED="1720519188176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -379,5 +371,6 @@
     <SUITE FILE_PATH="coverage/workshop_pytest$.coverage" NAME=" Coverage Results" MODIFIED="1720524903227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/workshop_pytest$functionsinpy.coverage" NAME="functionsinpy Coverage Results" MODIFIED="1720610650861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonlearning" />
     <SUITE FILE_PATH="coverage/workshop_pytest$oops.coverage" NAME="oops Coverage Results" MODIFIED="1720695558911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonlearning" />
+    <SUITE FILE_PATH="coverage/workshop_pytest$FirstTestCase.coverage" NAME="FirstTestCase Coverage Results" MODIFIED="1720789747027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonlearning" />
   </component>
 </project>
