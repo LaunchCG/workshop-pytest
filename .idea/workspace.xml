@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="Siva - First commit" />
+    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="Modifications in firstprogram file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +25,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "siva-launch"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/LaunchCG/workshop-pytest.git",
+    "accountId": "d1f5d61a-950a-4768-91ab-8b0bedaf1137"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -186,12 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1721237028463</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modifications in firstprogram file">
+      <option name="closed" value="true" />
+      <created>1721237074275</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721237074275</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial setup" />
     <MESSAGE value="Siva - First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Siva - First commit" />
+    <MESSAGE value="Modifications in firstprogram file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifications in firstprogram file" />
   </component>
 </project>
