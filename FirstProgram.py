@@ -12,3 +12,6 @@ def test_answer():
 def test_answer2():
     assert func(6) == 7
 
+
+def test_answer3():
+    assert func(8) == 9
