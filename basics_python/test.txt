@@ -1,0 +1,5 @@
+lion
+horse
+cat
+dog
+elephant
