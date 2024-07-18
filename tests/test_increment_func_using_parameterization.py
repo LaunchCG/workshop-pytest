@@ -4,6 +4,7 @@ import logging
 logger = logging.getLogger()
 
 
+# What we're testing against
 def add_one(x):
     return x + 1
 
@@ -20,8 +21,8 @@ def test_add_one_with_one_param(addend):
     [3, 4],
     [5, 6],
 ])
-def test_add_one_with_param_list(number_list):
-    addend, expected_sum = number_list
+def test_add_one_with_param_list(numbers):
+    addend, expected_sum = numbers
     assert add_one(addend) == expected_sum
 
 
@@ -78,12 +79,12 @@ def test_add_one_with_decrement_func(func_sum, func_product):
 
 
 @pytest.fixture(params=addend_list)
-def addend(request):
+def addend_getter(request):
     return request.param
 
 
-def test_add_one_with_fixture_one_param(addend):
-    expected_sum = addend
+def test_add_one_with_fixture_one_param(addend_getter):
+    expected_sum = addend_getter
     expected_sum += 1
     assert add_one(addend) == expected_sum
 
@@ -96,6 +97,7 @@ def number_list(request):
 def test_add_one_with_pytest_fixture_list(number_list):
     addend, expected_sum = number_list
     assert add_one(addend) == expected_sum
+
 
 
 
