@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="initial setup">
+      <change afterPath="$PROJECT_DIR$/practice-framework/modules-skip/test_skipfeature.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markers.py" beforeDir="false" afterPath="$PROJECT_DIR$/markers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-framework/modules/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice-framework/modules-fixtures/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-framework/modules/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice-framework/modules-fixtures/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-framework/modules/test_payments.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice-framework/modules-fixtures/test_payments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-framework/modules/test_signup.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice-framework/modules-fixtures/test_signup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +55,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for testfile1.test_answer.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in testfile1.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;PyTestDeb&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for testfile1.test_answer.executor": "Run",
+    "Python tests.Python tests in testfile1.py.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "PyTestDeb",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python tests.Python tests for testfile1.test_answer">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PytestWorkshop" />
@@ -161,7 +166,55 @@
       <option name="project" value="LOCAL" />
       <updated>1720792127710</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="initial setup">
+      <option name="closed" value="true" />
+      <created>1721284891551</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721284891551</updated>
+    </task>
+    <task id="LOCAL-00007" summary="initial setup">
+      <option name="closed" value="true" />
+      <created>1721293064499</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721293064499</updated>
+    </task>
+    <task id="LOCAL-00008" summary="initial setup">
+      <option name="closed" value="true" />
+      <created>1721294143546</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721294143546</updated>
+    </task>
+    <task id="LOCAL-00009" summary="initial setup">
+      <option name="closed" value="true" />
+      <created>1721294903107</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721294903107</updated>
+    </task>
+    <task id="LOCAL-00010" summary="initial setup">
+      <option name="closed" value="true" />
+      <created>1721299752389</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721299752389</updated>
+    </task>
+    <task id="LOCAL-00011" summary="initial setup">
+      <option name="closed" value="true" />
+      <created>1721309155445</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721309155445</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
