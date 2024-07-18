@@ -8,3 +8,5 @@ def test_greater():
 def test_greater_equal():
     num = 100
     assert num >= 50
+
+#use of markers-skip,xfail
