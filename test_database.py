@@ -48,3 +48,47 @@ def test_read_new_consultant():
             
     cursor.close()
     cnx.close()
+    
+    
+def test_update_consultant():
+    cnx = mysql.connector.connect(user='root', password='root',
+                                  host='127.0.0.1',
+                                  database='pytest_workshop')
+    
+    
+    cursor = cnx.cursor()
+    
+    update_consultant_query = ("UPDATE consultant "
+                               "SET consultant_title='Software Development Engineer in Test'"
+                               "WHERE consultant_name = 'Malcolm Haslop'")
+    
+    # Execute and print consultant information
+    cursor.execute(update_consultant_query)
+    
+    # Make sure that data is commited to the database
+    cnx.commit()
+    
+    cursor.close()
+    cnx.close()
+
+
+def test_delete_consultant():
+    cnx = mysql.connector.connect(user='root', password='root',
+                                  host='127.0.0.1',
+                                  database='pytest_workshop')
+    
+    cursor = cnx.cursor()
+    
+    delete_consultant_query = ("DELETE FROM consultant "
+                               "WHERE consultant_name = 'Malcolm Haslop'")
+    
+    # Execute and Print consultant information
+    cursor.execute(delete_consultant_query)
+    
+    # Make sure data is committed to the database
+    cnx.commit()
+    
+    cursor.close()
+    cnx.close()
+    
+    
