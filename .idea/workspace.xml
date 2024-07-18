@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="code added">
+    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="Python basics and selenium">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basecsOfSelenium/uploadfilesdmo.py" beforeDir="false" afterPath="$PROJECT_DIR$/basecsOfSelenium/uploadfilesdmo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,7 @@
     &quot;Python tests.Python tests for testfile1.test_answer.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for tuples_dictionary_datatypes_demo.test_dictio.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for tuples_dictionary_datatypes_demo.test_tuplesdemo.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for uploadfilesdmo.test_upload.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in datatypeandvar.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in fixturesDemo.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_HomePage.py.executor&quot;: &quot;Run&quot;,
@@ -62,6 +64,7 @@
     &quot;Python.BaseClass.executor&quot;: &quot;Run&quot;,
     &quot;Python.ChildImp.executor&quot;: &quot;Run&quot;,
     &quot;Python.ExceptionsPython.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HomePageData.executor&quot;: &quot;Run&quot;,
     &quot;Python.OopsDemo.executor&quot;: &quot;Run&quot;,
     &quot;Python.StringsDemo.executor&quot;: &quot;Run&quot;,
     &quot;Python.actionsDemo.executor&quot;: &quot;Run&quot;,
@@ -83,7 +86,9 @@
     &quot;Python.readFileDemo (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.readWrite.executor&quot;: &quot;Run&quot;,
     &quot;Python.sortingTables.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testExcelFileDtaatoDictionatry.executor&quot;: &quot;Run&quot;,
     &quot;Python.testlogsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.uploadfilesdmo.executor&quot;: &quot;Run&quot;,
     &quot;Python.waitDemo.executor&quot;: &quot;Run&quot;,
     &quot;Python.waitsDemo (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.whiledemo.executor&quot;: &quot;Run&quot;,
@@ -92,12 +97,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;RameshKaramthotJuly2024&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/RameshKaramthot/PycharmProjects/workshop-pytest/testData&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/RameshKaramthot/PycharmProjects/workshop-pytest&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\RameshKaramthot\PycharmProjects\workshop-pytest" />
       <recent name="C:\Users\RameshKaramthot\PycharmProjects\workshop-pytest\testData" />
       <recent name="C:\Users\RameshKaramthot\PycharmProjects\workshop-pytest\pytestDemo" />
     </key>
@@ -105,51 +111,7 @@
       <recent name="C:\Users\RameshKaramthot\PycharmProjects\workshop-pytest\basics_python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.excelDemo">
-    <configuration name="BaseClass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PytestWorkshop" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utilities" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utilities/BaseClass.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="excelDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PytestWorkshop" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testData" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testData/excelDemo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for test_e2e.Testone.test_e2e">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PytestWorkshop" />
       <option name="ENV_FILES" value="" />
@@ -217,13 +179,43 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_HomePage.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PytestWorkshop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_HomePage.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_e2e.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PytestWorkshop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_e2e.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.excelDemo" />
+        <item itemvalue="Python tests.Python tests for test_e2e.Testone.test_e2e" />
+        <item itemvalue="Python tests.Python tests in test_e2e.py" />
         <item itemvalue="Python tests.Python tests for test_HomePage.TestHomePage" />
         <item itemvalue="Python tests.Python tests for test_HomePage.TestHomePage.test_formSubmission" />
-        <item itemvalue="Python tests.Python tests for test_e2e.Testone.test_e2e" />
-        <item itemvalue="Python.BaseClass" />
+        <item itemvalue="Python tests.Python tests in test_HomePage.py" />
       </list>
     </recent_temporary>
   </component>
@@ -275,14 +267,41 @@
       <option name="project" value="LOCAL" />
       <updated>1720786925249</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="pytest code">
+      <option name="closed" value="true" />
+      <created>1721054461786</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721054461786</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Python basics code added">
+      <option name="closed" value="true" />
+      <created>1721128700387</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721128700387</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Python basics and selenium">
+      <option name="closed" value="true" />
+      <created>1721226513918</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721226513919</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial setup" />
     <MESSAGE value="Changes in testfile1.py" />
     <MESSAGE value="code added" />
-    <option name="LAST_COMMIT_MESSAGE" value="code added" />
+    <MESSAGE value="pytest code" />
+    <MESSAGE value="Python basics code added" />
+    <MESSAGE value="Python basics and selenium" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python basics and selenium" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,151 @@
+2024-07-18 22:44:05,346: INFO : test_e2e :getting all the card items
+2024-07-18 22:44:05,378: INFO : test_e2e :iphone X
+2024-07-18 22:44:05,396: INFO : test_e2e :Samsung Note 8
+2024-07-18 22:44:05,413: INFO : test_e2e :Nokia Edge
+2024-07-18 22:44:05,429: INFO : test_e2e :Blackberry
+2024-07-18 22:44:08,739: INFO : test_e2e :Entering country name as India
+2024-07-18 22:46:20,410: INFO : test_e2e :getting all the card items
+2024-07-18 22:46:20,444: INFO : test_e2e :iphone X
+2024-07-18 22:46:20,460: INFO : test_e2e :Samsung Note 8
+2024-07-18 22:46:20,474: INFO : test_e2e :Nokia Edge
+2024-07-18 22:46:20,490: INFO : test_e2e :Blackberry
+2024-07-18 22:46:23,792: INFO : test_e2e :Entering country name as India
+2024-07-18 22:46:25,024: ERROR : webDriverWaitforLinkText :The link text 'India' was not found within 1 seconds. TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF73FC1EEB2+31554]
+	(No symbol) [0x00007FF73FB97EE9]
+	(No symbol) [0x00007FF73FA5872A]
+	(No symbol) [0x00007FF73FAA8434]
+	(No symbol) [0x00007FF73FAA853C]
+	(No symbol) [0x00007FF73FAEF6A7]
+	(No symbol) [0x00007FF73FACD06F]
+	(No symbol) [0x00007FF73FAEC977]
+	(No symbol) [0x00007FF73FACCDD3]
+	(No symbol) [0x00007FF73FA9A33B]
+	(No symbol) [0x00007FF73FA9AED1]
+	GetHandleVerifier [0x00007FF73FF28B2D+3217341]
+	GetHandleVerifier [0x00007FF73FF75AF3+3532675]
+	GetHandleVerifier [0x00007FF73FF6B0F0+3489152]
+	GetHandleVerifier [0x00007FF73FCCE786+750614]
+	(No symbol) [0x00007FF73FBA376F]
+	(No symbol) [0x00007FF73FB9EB24]
+	(No symbol) [0x00007FF73FB9ECB2]
+	(No symbol) [0x00007FF73FB8E17F]
+	BaseThreadInitThunk [0x00007FFBBE7A7344+20]
+	RtlUserThreadStart [0x00007FFBBEA7CC91+33]
+
+2024-07-18 22:47:02,688: INFO : test_e2e :getting all the card items
+2024-07-18 22:47:02,749: INFO : test_e2e :iphone X
+2024-07-18 22:47:02,762: INFO : test_e2e :Samsung Note 8
+2024-07-18 22:47:02,781: INFO : test_e2e :Nokia Edge
+2024-07-18 22:47:02,793: INFO : test_e2e :Blackberry
+2024-07-18 22:47:06,092: INFO : test_e2e :Entering country name as India
+2024-07-18 22:47:07,313: ERROR : webDriverWaitforLinkText :The link text 'India' was not found within 1 seconds. TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF73FC1EEB2+31554]
+	(No symbol) [0x00007FF73FB97EE9]
+	(No symbol) [0x00007FF73FA5872A]
+	(No symbol) [0x00007FF73FAA8434]
+	(No symbol) [0x00007FF73FAA853C]
+	(No symbol) [0x00007FF73FAEF6A7]
+	(No symbol) [0x00007FF73FACD06F]
+	(No symbol) [0x00007FF73FAEC977]
+	(No symbol) [0x00007FF73FACCDD3]
+	(No symbol) [0x00007FF73FA9A33B]
+	(No symbol) [0x00007FF73FA9AED1]
+	GetHandleVerifier [0x00007FF73FF28B2D+3217341]
+	GetHandleVerifier [0x00007FF73FF75AF3+3532675]
+	GetHandleVerifier [0x00007FF73FF6B0F0+3489152]
+	GetHandleVerifier [0x00007FF73FCCE786+750614]
+	(No symbol) [0x00007FF73FBA376F]
+	(No symbol) [0x00007FF73FB9EB24]
+	(No symbol) [0x00007FF73FB9ECB2]
+	(No symbol) [0x00007FF73FB8E17F]
+	BaseThreadInitThunk [0x00007FFBBE7A7344+20]
+	RtlUserThreadStart [0x00007FFBBEA7CC91+33]
+
+2024-07-18 22:55:20,184: INFO : test_formSubmission :first name is: Python
+2024-07-18 22:55:20,207: INFO : waitforElement :Element with locator '('name', 'name')' found.
+2024-07-18 23:04:31,293: INFO : test_formSubmission :first name is: Python
+2024-07-18 23:04:31,320: INFO : waitforElement :Element with locator '('name', 'name')' found.
+2024-07-18 23:05:05,291: INFO : test_formSubmission :first name is: Python
+2024-07-18 23:05:05,312: INFO : waitforElement :Element with locator '('name', 'name')' found.
+2024-07-18 23:06:24,800: INFO : test_formSubmission :first name is: Python
+2024-07-18 23:06:24,817: INFO : waitforElement :Element with locator '('name', 'name')' found.
+2024-07-18 23:06:27,204: INFO : waitforElement :Element with locator '('id', 'exampleFormControlSelect1')' found.
+2024-07-18 23:06:27,204: INFO : waitforElement :Element with locator '('id', 'exampleFormControlSelect1')' found.
+2024-07-18 23:09:54,942: INFO : test_formSubmission :first name is: Python
+2024-07-18 23:09:54,958: INFO : waitforElement :Element with locator '('name', 'name')' found.
+2024-07-18 23:11:14,300: INFO : test_formSubmission :first name is: Python
+2024-07-18 23:11:14,317: INFO : waitforElement :Element with locator '('name', 'name')' found.
+2024-07-18 23:12:15,077: INFO : test_formSubmission :first name is: Python
+2024-07-18 23:12:15,095: INFO : waitforElement :Element with locator '('name', 'name')' found.
+2024-07-18 23:13:02,051: INFO : test_formSubmission :first name is: Python
+2024-07-18 23:13:02,082: INFO : waitforElement :Element with locator '('name', 'name')' found.
+2024-07-18 23:13:04,612: INFO : waitforElement :Element with locator '('id', 'exampleFormControlSelect1')' found.
+2024-07-18 23:13:04,612: INFO : waitforElement :Element with locator '('id', 'exampleFormControlSelect1')' found.
+2024-07-18 23:15:51,342: INFO : test_formSubmission :first name is: Python
+2024-07-18 23:15:51,374: INFO : waitforElement :Element with locator '('name', 'name')' found.
+2024-07-18 23:15:53,779: ERROR : waitforElement :An error occurred: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not WebElement
+2024-07-18 23:15:53,779: ERROR : waitforElement :An error occurred: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not WebElement
+2024-07-18 23:16:25,095: INFO : test_formSubmission :first name is: Python
+2024-07-18 23:16:25,121: INFO : waitforElement :Element with locator '('name', 'name')' found.
+2024-07-18 23:16:27,511: ERROR : waitforElement :An error occurred: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not WebElement
+2024-07-18 23:16:27,511: ERROR : waitforElement :An error occurred: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not WebElement
+2024-07-18 23:17:44,793: INFO : test_formSubmission :first name is: Python
+2024-07-18 23:17:44,824: INFO : waitforElement :Element with locator '('name', 'name')' found.
+2024-07-18 23:18:25,521: INFO : test_formSubmission :first name is: Python
+2024-07-18 23:18:25,540: INFO : waitforElement :Element with locator '('name', 'name')' found.
+2024-07-18 23:18:27,951: ERROR : waitforElement :An error occurred: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not WebElement
+2024-07-18 23:18:27,951: ERROR : waitforElement :An error occurred: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not WebElement
+2024-07-18 23:18:57,815: INFO : test_formSubmission :first name is: Python
+2024-07-18 23:18:57,847: INFO : waitforElement :Element with locator '('name', 'name')' found.
+2024-07-18 23:19:00,235: ERROR : waitforElement :An error occurred: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not WebElement
+2024-07-18 23:19:00,235: ERROR : waitforElement :An error occurred: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not WebElement
+2024-07-18 23:19:50,208: INFO : test_formSubmission :first name is: Python
+2024-07-18 23:19:50,235: INFO : waitforElement :Element with locator '('name', 'name')' found.
+2024-07-18 23:19:52,615: ERROR : waitforElement :An error occurred: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not WebElement
+2024-07-18 23:19:52,615: ERROR : waitforElement :An error occurred: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not WebElement
+2024-07-18 23:20:33,414: INFO : test_formSubmission :first name is: Python
+2024-07-18 23:20:33,434: INFO : waitforElement :Element with locator '('name', 'name')' found.
+2024-07-18 23:20:35,854: ERROR : waitforElement :An error occurred: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not WebElement
+2024-07-18 23:20:35,854: ERROR : waitforElement :An error occurred: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not WebElement
+2024-07-18 23:23:26,072: INFO : test_e2e :getting all the card items
+2024-07-18 23:23:26,089: INFO : test_e2e :iphone X
+2024-07-18 23:23:26,100: INFO : test_e2e :Samsung Note 8
+2024-07-18 23:23:26,111: INFO : test_e2e :Nokia Edge
+2024-07-18 23:23:26,123: INFO : test_e2e :Blackberry
+2024-07-18 23:23:29,353: INFO : test_e2e :Entering country name as India
+2024-07-18 23:23:30,547: ERROR : webDriverWaitforLinkText :The link text 'India' was not found within 1 seconds. TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF73FC1EEB2+31554]
+	(No symbol) [0x00007FF73FB97EE9]
+	(No symbol) [0x00007FF73FA5872A]
+	(No symbol) [0x00007FF73FAA8434]
+	(No symbol) [0x00007FF73FAA853C]
+	(No symbol) [0x00007FF73FAEF6A7]
+	(No symbol) [0x00007FF73FACD06F]
+	(No symbol) [0x00007FF73FAEC977]
+	(No symbol) [0x00007FF73FACCDD3]
+	(No symbol) [0x00007FF73FA9A33B]
+	(No symbol) [0x00007FF73FA9AED1]
+	GetHandleVerifier [0x00007FF73FF28B2D+3217341]
+	GetHandleVerifier [0x00007FF73FF75AF3+3532675]
+	GetHandleVerifier [0x00007FF73FF6B0F0+3489152]
+	GetHandleVerifier [0x00007FF73FCCE786+750614]
+	(No symbol) [0x00007FF73FBA376F]
+	(No symbol) [0x00007FF73FB9EB24]
+	(No symbol) [0x00007FF73FB9ECB2]
+	(No symbol) [0x00007FF73FB8E17F]
+	BaseThreadInitThunk [0x00007FFBBE7A7344+20]
+	RtlUserThreadStart [0x00007FFBBEA7CC91+33]
+
+2024-07-18 23:24:03,385: INFO : test_e2e :getting all the card items
+2024-07-18 23:24:03,405: INFO : test_e2e :iphone X
+2024-07-18 23:24:03,415: INFO : test_e2e :Samsung Note 8
+2024-07-18 23:24:03,429: INFO : test_e2e :Nokia Edge
+2024-07-18 23:24:03,442: INFO : test_e2e :Blackberry
+2024-07-18 23:24:06,685: INFO : test_e2e :Entering country name as India
+2024-07-18 23:24:12,047: INFO : webDriverWaitforLinkText :Element with link text 'India' found.
+2024-07-18 23:24:14,228: INFO : test_e2e :Text received from application is: ×
+Success! Thank you! Your order will be delivered in next few weeks :-).

@@ -1,0 +1,78 @@
+2024-07-18 22:47:46,895: INFO : test_editProfile :Python
+2024-07-18 22:47:46,895: INFO : test_editProfile :fixtures
+2024-07-18 22:47:46,899: DEBUG : pytestDemo.test_logsDemo :A debug statement is executed
+2024-07-18 22:47:46,899: INFO : pytestDemo.test_logsDemo :Information statement
+2024-07-18 22:47:46,899: WARNING : pytestDemo.test_logsDemo :Something is in waning mode
+2024-07-18 22:47:46,899: ERROR : pytestDemo.test_logsDemo :A major error has happened
+2024-07-18 22:47:46,899: CRITICAL : pytestDemo.test_logsDemo :Critical issue
+2024-07-18 22:47:52,632: INFO : test_formSubmission :first name is: Ram
+2024-07-18 22:47:52,668: INFO : waitforElement :Element with locator '('name', 'name')' found.
+2024-07-18 22:48:07,823: INFO : test_e2e :getting all the card items
+2024-07-18 22:48:07,841: INFO : test_e2e :iphone X
+2024-07-18 22:48:07,853: INFO : test_e2e :Samsung Note 8
+2024-07-18 22:48:07,869: INFO : test_e2e :Nokia Edge
+2024-07-18 22:48:07,887: INFO : test_e2e :Blackberry
+2024-07-18 22:48:11,221: INFO : test_e2e :Entering country name as India
+2024-07-18 22:48:12,431: ERROR : webDriverWaitforLinkText :The link text 'India' was not found within 1 seconds. TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF73FC1EEB2+31554]
+	(No symbol) [0x00007FF73FB97EE9]
+	(No symbol) [0x00007FF73FA5872A]
+	(No symbol) [0x00007FF73FAA8434]
+	(No symbol) [0x00007FF73FAA853C]
+	(No symbol) [0x00007FF73FAEF6A7]
+	(No symbol) [0x00007FF73FACD06F]
+	(No symbol) [0x00007FF73FAEC977]
+	(No symbol) [0x00007FF73FACCDD3]
+	(No symbol) [0x00007FF73FA9A33B]
+	(No symbol) [0x00007FF73FA9AED1]
+	GetHandleVerifier [0x00007FF73FF28B2D+3217341]
+	GetHandleVerifier [0x00007FF73FF75AF3+3532675]
+	GetHandleVerifier [0x00007FF73FF6B0F0+3489152]
+	GetHandleVerifier [0x00007FF73FCCE786+750614]
+	(No symbol) [0x00007FF73FBA376F]
+	(No symbol) [0x00007FF73FB9EB24]
+	(No symbol) [0x00007FF73FB9ECB2]
+	(No symbol) [0x00007FF73FB8E17F]
+	BaseThreadInitThunk [0x00007FFBBE7A7344+20]
+	RtlUserThreadStart [0x00007FFBBEA7CC91+33]
+
+2024-07-18 22:51:00,285: INFO : test_editProfile :Python
+2024-07-18 22:51:00,285: INFO : test_editProfile :fixtures
+2024-07-18 22:51:00,289: DEBUG : pytestDemo.test_logsDemo :A debug statement is executed
+2024-07-18 22:51:00,289: INFO : pytestDemo.test_logsDemo :Information statement
+2024-07-18 22:51:00,289: WARNING : pytestDemo.test_logsDemo :Something is in waning mode
+2024-07-18 22:51:00,289: ERROR : pytestDemo.test_logsDemo :A major error has happened
+2024-07-18 22:51:00,289: CRITICAL : pytestDemo.test_logsDemo :Critical issue
+2024-07-18 22:51:05,588: INFO : test_formSubmission :first name is: Ram
+2024-07-18 22:51:05,622: INFO : waitforElement :Element with locator '('name', 'name')' found.
+2024-07-18 22:51:20,101: INFO : test_e2e :getting all the card items
+2024-07-18 22:51:20,129: INFO : test_e2e :iphone X
+2024-07-18 22:51:20,148: INFO : test_e2e :Samsung Note 8
+2024-07-18 22:51:20,170: INFO : test_e2e :Nokia Edge
+2024-07-18 22:51:20,195: INFO : test_e2e :Blackberry
+2024-07-18 22:51:23,501: INFO : test_e2e :Entering country name as India
+2024-07-18 22:51:24,722: ERROR : webDriverWaitforLinkText :The link text 'India' was not found within 1 seconds. TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF73FC1EEB2+31554]
+	(No symbol) [0x00007FF73FB97EE9]
+	(No symbol) [0x00007FF73FA5872A]
+	(No symbol) [0x00007FF73FAA8434]
+	(No symbol) [0x00007FF73FAA853C]
+	(No symbol) [0x00007FF73FAEF6A7]
+	(No symbol) [0x00007FF73FACD06F]
+	(No symbol) [0x00007FF73FAEC977]
+	(No symbol) [0x00007FF73FACCDD3]
+	(No symbol) [0x00007FF73FA9A33B]
+	(No symbol) [0x00007FF73FA9AED1]
+	GetHandleVerifier [0x00007FF73FF28B2D+3217341]
+	GetHandleVerifier [0x00007FF73FF75AF3+3532675]
+	GetHandleVerifier [0x00007FF73FF6B0F0+3489152]
+	GetHandleVerifier [0x00007FF73FCCE786+750614]
+	(No symbol) [0x00007FF73FBA376F]
+	(No symbol) [0x00007FF73FB9EB24]
+	(No symbol) [0x00007FF73FB9ECB2]
+	(No symbol) [0x00007FF73FB8E17F]
+	BaseThreadInitThunk [0x00007FFBBE7A7344+20]
+	RtlUserThreadStart [0x00007FFBBEA7CC91+33]
+
