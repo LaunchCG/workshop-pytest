@@ -1,8 +1,10 @@
+import pytest
+
 
 def func(x):
     return x % 2
 
-
+@pytest.mark.smoke
 def test_divisibleby2():
     assert func(6) == 0
 

@@ -1,4 +1,8 @@
+import pytest
+
+
 class TestClass:
+    @pytest.mark.smoke
     def testlogin(self):
         print("Login successful !!")
 
