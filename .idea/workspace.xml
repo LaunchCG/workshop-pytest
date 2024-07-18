@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="Modified-ParallelExecutionTests">
-      <change afterPath="$PROJECT_DIR$/pytest/modules/test_Parametrize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest/modules/test_Parametrize2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest/modules/testfile2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_DBTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest/modules/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest/modules/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest/modules/test_Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest/test_Login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest/modules/test_Payments.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest/test_Payments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest/modules/test_Signup.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest/test_Signup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,52 +53,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Behave.samplecode.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Dependency.TestDependency.test_openApp.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Orderingwithmark.TestClass.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Orderingwithmarkrun.TestClass.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Orderingwithmarkrun.TestClass.test_methodA.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Orderingwithmarkrun.TestClass.test_methodE.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Parallel.TestLogin.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Parallel.TestLogin.test_login_chrome.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Skipping.TestClass.test_LoginByEmail.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_one.TestClass.test_one.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_two.TestClass.test_one.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_Parallel.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in testfile1.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FirstTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FirstTestEdge.executor&quot;: &quot;Run&quot;,
-    &quot;Python.collections.executor&quot;: &quot;Run&quot;,
-    &quot;Python.collections2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.collectionspractise (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.firsttestcase.executor&quot;: &quot;Run&quot;,
-    &quot;Python.functionsinpy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.inheritance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.oops.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practisePython.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;PradeepEdaraJuly2024&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PradeepKumarReddyEda/PycharmProjects/workshop-pytest/pytest/modules&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Behave.samplecode.feature.executor": "Run",
+    "Python tests.Python tests for test_Dependency.TestDependency.test_openApp.executor": "Run",
+    "Python tests.Python tests for test_Orderingwithmark.TestClass.executor": "Run",
+    "Python tests.Python tests for test_Orderingwithmarkrun.TestClass.executor": "Run",
+    "Python tests.Python tests for test_Orderingwithmarkrun.TestClass.test_methodA.executor": "Run",
+    "Python tests.Python tests for test_Orderingwithmarkrun.TestClass.test_methodE.executor": "Run",
+    "Python tests.Python tests for test_Parallel.TestLogin.executor": "Run",
+    "Python tests.Python tests for test_Parallel.TestLogin.test_login_chrome.executor": "Run",
+    "Python tests.Python tests for test_Skipping.TestClass.test_LoginByEmail.executor": "Run",
+    "Python tests.Python tests for test_one.TestClass.test_one.executor": "Run",
+    "Python tests.Python tests for test_two.TestClass.test_one.executor": "Run",
+    "Python tests.Python tests in test_Parallel.py.executor": "Run",
+    "Python tests.Python tests in testfile1.py.executor": "Run",
+    "Python.FirstTestCase.executor": "Run",
+    "Python.FirstTestEdge.executor": "Run",
+    "Python.collections.executor": "Run",
+    "Python.collections2.executor": "Run",
+    "Python.collectionspractise (1).executor": "Run",
+    "Python.firsttestcase.executor": "Run",
+    "Python.functionsinpy.executor": "Run",
+    "Python.inheritance.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.oops.executor": "Run",
+    "Python.practisePython.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "PradeepEdaraJuly2024",
+    "last_opened_file_path": "C:/Users/PradeepKumarReddyEda/PycharmProjects/workshop-pytest",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest" />
       <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\pytest\modules" />
       <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\pytest" />
       <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\pythonlearning" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\pytest\modules" />
       <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\pytest" />
       <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\BDD" />
       <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\pythonlearning" />
@@ -246,7 +249,10 @@
       <workItem from="1720883476731" duration="8570000" />
       <workItem from="1720942746622" duration="12636000" />
       <workItem from="1721037729917" duration="16529000" />
-      <workItem from="1721115753946" duration="2724000" />
+      <workItem from="1721115753946" duration="2775000" />
+      <workItem from="1721126346405" duration="15456000" />
+      <workItem from="1721328079145" duration="2611000" />
+      <workItem from="1721332028238" duration="1214000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup">
       <option name="closed" value="true" />
@@ -384,7 +390,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720893678524</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Modified-ParallelExecutionTests">
+      <option name="closed" value="true" />
+      <created>1721125321886</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1721125321886</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
