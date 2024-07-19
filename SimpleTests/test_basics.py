@@ -11,7 +11,7 @@ def test_divisibleby2():
 
 def test_one():
     x = "this"
-    assert "i" in x
+    assert "y" in x
 
 
 def test_two():

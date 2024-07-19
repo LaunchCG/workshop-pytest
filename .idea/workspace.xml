@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="Pytest xdist for parallel execution, xfail,skip, scope and autouse">
+    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="Exporting results to an external file">
+      <change afterPath="$PROJECT_DIR$/SimpleTests/test_fixturedata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleTests/test_fixturesimplementation1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleTests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleTests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleTests/test_basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleTests/test_basics.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,29 +118,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\LaunchCG\My_Learnings\PyTest\PyCharmProjects\workshop-pytest\SimpleTests\test_FirstProgram.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SimpleTests/test_FirstProgram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_FirstProgram.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PytestWorkshop" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12 (workshop-pytest)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/SimpleTests/test_FirstProgram.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in workshop-pytest" type="tests" factoryName="Autodetect" nameIsGenerated="true">
@@ -159,11 +147,9 @@
       <item itemvalue="Python.main" />
       <item itemvalue="Python.test_FirstProgram" />
       <item itemvalue="Python tests.Python tests in workshop-pytest" />
-      <item itemvalue="Python tests.Python tests in test_FirstProgram.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_FirstProgram.py" />
         <item itemvalue="Python.test_FirstProgram" />
       </list>
     </recent_temporary>
@@ -272,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721380928298</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Exporting results to an external file">
+      <option name="closed" value="true" />
+      <created>1721381878176</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721381878176</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -286,6 +280,7 @@
     <MESSAGE value="Test Fixtures understanding - setup and teardown" />
     <MESSAGE value="Conftest.py implementation (expanding the fixtures to all tests)" />
     <MESSAGE value="Pytest xdist for parallel execution, xfail,skip, scope and autouse" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pytest xdist for parallel execution, xfail,skip, scope and autouse" />
+    <MESSAGE value="Exporting results to an external file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exporting results to an external file" />
   </component>
 </project>
