@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="Conftest.py implementation (expanding the fixtures to all tests)">
-      <change afterPath="$PROJECT_DIR$/SimpleTests/test_plainfixture.py" afterDir="false" />
+    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="Pytest xdist for parallel execution, xfail,skip, scope and autouse">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleTests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleTests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleTests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleTests/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721322859200</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Pytest xdist for parallel execution, xfail,skip, scope and autouse">
+      <option name="closed" value="true" />
+      <created>1721380928298</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721380928298</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -281,6 +285,7 @@
     <MESSAGE value="Tagging and Grouping the pytests" />
     <MESSAGE value="Test Fixtures understanding - setup and teardown" />
     <MESSAGE value="Conftest.py implementation (expanding the fixtures to all tests)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Conftest.py implementation (expanding the fixtures to all tests)" />
+    <MESSAGE value="Pytest xdist for parallel execution, xfail,skip, scope and autouse" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pytest xdist for parallel execution, xfail,skip, scope and autouse" />
   </component>
 </project>
