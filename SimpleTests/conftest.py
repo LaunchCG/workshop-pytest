@@ -31,3 +31,7 @@ def tc_setupNew():
 def dataLoad():
     print("Here is the test data")
     return ["Siva", "Anbalagan", "sanbalagan@launchcg.com"]
+
+@pytest.fixture(params=[("siva","hello"), ("anbalagan","punch"), ("Launch","venue")])
+def crossbrowser(request):
+    return request.param

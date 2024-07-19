@@ -11,9 +11,13 @@ def test_divisibleby2():
 
 def test_one():
     x = "this"
-    assert "y" in x
+    assert "s" in x
 
 
 def test_two():
     x = "hello"
     assert hasattr(x,"check")
+
+
+def test_crossbrowser(crossbrowser):
+    print(crossbrowser[1])
