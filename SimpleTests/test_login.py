@@ -5,6 +5,7 @@ class TestClass:
     def testlogin(self):
         print("Login successful !!")
 
+    @pytest.mark.xfail
     def testlogoff(self):
         print("Logoff successful !!")
 
