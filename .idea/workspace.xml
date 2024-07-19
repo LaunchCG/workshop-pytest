@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="initial setup">
-      <change afterPath="$PROJECT_DIR$/practice-framework/modules-skip/test_skipfeature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice-framework/modules-skip/test_dependency.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-framework/modules/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice-framework/modules-fixtures/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-framework/modules/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice-framework/modules-fixtures/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-framework/modules/test_payments.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice-framework/modules-fixtures/test_payments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-framework/modules/test_signup.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice-framework/modules-fixtures/test_signup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-framework/modules-skip/test_skipfeature.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice-framework/modules-skip/test_skipfeature.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,17 +52,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for testfile1.test_answer.executor": "Run",
-    "Python tests.Python tests in testfile1.py.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "PyTestDeb",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for testfile1.test_answer.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in testfile1.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;PyTestDeb&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python tests.Python tests for testfile1.test_answer">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PytestWorkshop" />
@@ -214,8 +211,27 @@
       <option name="project" value="LOCAL" />
       <updated>1721309155445</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="initial setup">
+      <option name="closed" value="true" />
+      <created>1721309945611</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721309945611</updated>
+    </task>
+    <task id="LOCAL-00013" summary="initial setup">
+      <option name="closed" value="true" />
+      <created>1721312464244</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721312464244</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
