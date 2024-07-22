@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="Modified-ParallelExecutionTests">
-      <change afterPath="$PROJECT_DIR$/pytest/modules/testfile2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_DBTest.py" afterDir="false" />
+    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="Adding DB Testing">
+      <change afterPath="$PROJECT_DIR$/test_db_selectquery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_db_simpleselect.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_DBTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_db_insert.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -252,7 +253,8 @@
       <workItem from="1721115753946" duration="2775000" />
       <workItem from="1721126346405" duration="15456000" />
       <workItem from="1721328079145" duration="2611000" />
-      <workItem from="1721332028238" duration="1214000" />
+      <workItem from="1721332028238" duration="1424000" />
+      <workItem from="1721375025548" duration="17384000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup">
       <option name="closed" value="true" />
@@ -398,7 +400,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721125321886</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Adding DB Testing">
+      <option name="closed" value="true" />
+      <created>1721333417124</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1721333417124</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +433,8 @@
     <MESSAGE value="adding Pytest :Fixtures:Yield" />
     <MESSAGE value="Adding-Skipping,Ordering,Grouping and Parallel Test Features" />
     <MESSAGE value="Modified-ParallelExecutionTests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified-ParallelExecutionTests" />
+    <MESSAGE value="Adding DB Testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding DB Testing" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workshop_pytest$FirstTestEdge.coverage" NAME="FirstTestEdge Coverage Results" MODIFIED="1720892843985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonlearning" />
