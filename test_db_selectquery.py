@@ -15,8 +15,10 @@ def test_create_new_user():
     for (idconsultant, consultant_name, consultant_title, consultant_location,consultant_discipline) in result:
         print(f"{idconsultant} {consultant_name} - {consultant_title} is located in  {consultant_location} "
               f"and is part of the {consultant_discipline} Discipline")
-        if consultant_name == 'Matt Eakin' :
-             assert consultant_title == 'Quality Assurance Engineer'
+        if consultant_name == 'Pradeep Edara':
+            assert consultant_title == 'Software Development Engineer in Test'
+            assert consultant_location == 'India'
+            assert consultant_discipline == 'Test & Test Automation'
 
     cursor.close()
     cnx.close()

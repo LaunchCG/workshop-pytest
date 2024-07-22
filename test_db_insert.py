@@ -15,7 +15,7 @@ def test_create_new_user():
 
     add_consultant = ("INSERT INTO consultant "
                       "(consultant_name, consultant_title,consultant_location,consultant_discipline) "
-                      "VALUES ('Pradeep Kumar Reddy', 'SDET', 'INDIA', 'Test & Test Automation')")
+                      "VALUES ('Pradeep Kumar Reddy Edara', 'SDET', 'INDIA', 'Test & Test Automation')")
     cursor.execute(add_consultant)
 
     cnx.commit()
