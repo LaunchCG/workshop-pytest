@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="Adding DB Testing - Update and Delete Tests">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/Workshop.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/Workshop.postman_collection.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/workshop_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/workshop_api.py" afterDir="false" />
-    </list>
+    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="Adding DB Testing - Update and Delete Tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +16,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -254,7 +253,7 @@
       <workItem from="1721126346405" duration="15456000" />
       <workItem from="1721328079145" duration="2611000" />
       <workItem from="1721332028238" duration="1424000" />
-      <workItem from="1721375025548" duration="26270000" />
+      <workItem from="1721375025548" duration="26617000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup">
       <option name="closed" value="true" />
@@ -424,7 +423,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721653635037</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Adding DB Testing - Update and Delete Tests">
+      <option name="closed" value="true" />
+      <created>1721658689848</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1721658689848</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
