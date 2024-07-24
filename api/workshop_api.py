@@ -36,7 +36,7 @@ def read_consultants():
 
     return_set = []
     read_consultant_query = ("SELECT idconsultant, consultant_name, consultant_title, consultant_location,"
-                             " consultant_discipline FROM pytest_workshop.consultants")
+                             " consultant_discipline FROM pytest_workshop.consultant")
 
     # Execute and Print consultant information
     cursor.execute(read_consultant_query)
@@ -51,7 +51,7 @@ def read_consultants():
                            "consultant_location": consultant_location,
                            "consultant_discipline": consultant_discipline})
 
-    results = {"consultants": return_set}
+    results = {"consultant": return_set}
     return results
 
 
@@ -89,7 +89,7 @@ def read_studios():
     cursor = cnx.cursor()
 
     return_set = []
-    read_consultant_query = "SELECT idstudios, studio_name FROM pytest_workshop.studios"
+    read_consultant_query = "SELECT idstudio, studio_name FROM pytest_workshop.studio"
 
     # Execute and Print consultant information
     cursor.execute(read_consultant_query)
@@ -112,7 +112,7 @@ def create_consultants(consultant: Consultant):
 
     cursor = cnx.cursor()
 
-    add_consultant = ("INSERT INTO consultants "
+    add_consultant = ("INSERT INTO consultant "
                       "(consultant_name, consultant_title, consultant_location, consultant_discipline) "
                       "VALUES (%s, %s, %s, %s)")
 
@@ -142,7 +142,7 @@ async def create_disciplines(discipline: Discipline):
 
     cursor = cnx.cursor()
 
-    add_discipline = ("INSERT INTO disciplines "
+    add_discipline = ("INSERT INTO discipline "
                       "(discipline_name, studio_name) "
                       "VALUES (%s, %s)")
 
@@ -169,7 +169,7 @@ async def create_studios(studio: Studio):
 
     cursor = cnx.cursor()
 
-    add_studio = f"INSERT INTO studios (studio_name) VALUES ('{studio.studio_name}')"
+    add_studio = f"INSERT INTO studio (studio_name) VALUES ('{studio.studio_name}')"
     print(add_studio)
 
     # Insert new consultant
@@ -192,7 +192,7 @@ async def update_disciplines(discipline: Discipline):
 
     cursor = cnx.cursor()
 
-    update_discipline = ("UPDATE disciplines SET "
+    update_discipline = ("UPDATE discipline SET "
                          "studio_name = %s "
                          "WHERE discipline_name = %s")
 
@@ -219,7 +219,7 @@ async def update_studios(studio: Studio):
 
     cursor = cnx.cursor()
 
-    delete_studio = f"DELETE FROM studios WHERE studio_name = '{studio.studio_name}'"
+    delete_studio = f"DELETE FROM studio WHERE studio_name = '{studio.studio_name}'"
 
     # Insert new consultant
     cursor.execute(delete_studio)

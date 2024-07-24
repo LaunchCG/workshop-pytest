@@ -12,7 +12,7 @@ def test_get():
 def test_post():
     url = "http://127.0.0.1:8000/studios/post"
     new_studio = {
-        "studio_name": "Another cool Studio"
+        "studio_name": "Another cool Studio 3"
     }
     response = requests.post(url, json=new_studio)
     print(response.status_code)
@@ -21,13 +21,13 @@ def test_post():
     assert response.headers["Content-Type"] == "application/json"
     
     data = response.json()
-    assert data["studio_name_created"] == "Another cool Studio"
+    assert data["studio_name_created"] == "Another cool Studio 3"
     
 
 def test_put():
     url = "http://127.0.0.1:8000/disciplines/put"
     update_studio = {
-        "disciplines_name": "My cool Disciplines",
+        "discipline_name": "My cool Disciplines",
         "studio_name": "Software Engineering"
     }
     response = requests.put(url, json=update_studio)
@@ -37,9 +37,9 @@ def test_put():
     
 
 def test_delete():
-    url = "http://127.0.0.1:8000/disciplines/delete"
+    url = "http://127.0.0.1:8000/studios/delete"
     delete_studio = {
-        "studio_name": "Another cool Studio"
+        "studio_name": "Another cool Studio 3"
     }
     response = requests.delete(url, json=delete_studio)
     print(response.status_code)
