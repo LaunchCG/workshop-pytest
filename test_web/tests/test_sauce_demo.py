@@ -29,7 +29,6 @@ def test_sauce_cart(browser):
 
     # Click Login button
     sauce_login_page.click_login_button()
-    time.sleep(2)
 
     #Access Products Page
     sauce_products_page = SauceLabsProductsPage(browser)
@@ -39,11 +38,10 @@ def test_sauce_cart(browser):
 
     #Click add to cart Sauce Labs Bolt T-Shirt
     sauce_products_page.click_add_to_cart_button()
-    time.sleep(2)
 
     #Click on cart link
     sauce_products_page.click_cart_link()
-    time.sleep(5)
+    time.sleep(2)
 
 
 

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="Adding WebTest-POM">
-      <change afterPath="$PROJECT_DIR$/test_web/page_objects/pages/sauce_lab_products_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_web/page_objects/pages/sauce_lab_products_page_locators.py" afterDir="false" />
+    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="Adding Productspage POM">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_web/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_web/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_web/tests/test_sauce_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_web/tests/test_sauce_demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -521,7 +520,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722419573347</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Adding Productspage POM">
+      <option name="closed" value="true" />
+      <created>1722422422550</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1722422422550</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +560,8 @@
     <MESSAGE value="Working with APIs" />
     <MESSAGE value="Working with APIs - Finished" />
     <MESSAGE value="Adding WebTest-POM" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding WebTest-POM" />
+    <MESSAGE value="Adding Productspage POM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Productspage POM" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workshop_pytest$FirstTestEdge.coverage" NAME="FirstTestEdge Coverage Results" MODIFIED="1720892843985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonlearning" />
