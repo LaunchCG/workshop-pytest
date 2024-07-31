@@ -28,7 +28,7 @@ def read_root():
 
 @app.get("/consultants")
 def read_consultants():
-    cnx = mysql.connector.connect(user='root', password='root',
+    cnx = mysql.connector.connect(user='root', password='Deb@launch',
                                   host='127.0.0.1',
                                   database='pytest_workshop')
 
@@ -57,22 +57,22 @@ def read_consultants():
 
 @app.get("/disciplines")
 def read_disciplines():
-    cnx = mysql.connector.connect(user='root', password='root',
+    cnx = mysql.connector.connect(user='root', password='Deb@launch',
                                   host='127.0.0.1',
                                   database='pytest_workshop')
 
     cursor = cnx.cursor()
 
     return_set = []
-    read_consultant_query = "SELECT iddisciplines, discipline_name, studio_name FROM pytest_workshop.disciplines"
+    read_consultant_query = "SELECT iddiscipline, discipline_name, studio_name FROM pytest_workshop.disciplines"
 
     # Execute and Print consultant information
     cursor.execute(read_consultant_query)
 
-    for (iddisciplines, discipline_name, studio_name) in cursor:
-        print(f"{iddisciplines} {discipline_name} is in the {studio_name} studio")
+    for (iddiscipline, discipline_name, studio_name) in cursor:
+        print(f"{iddiscipline} {discipline_name} is in the {studio_name} studio")
 
-        return_set.append({"iddisciplines": iddisciplines,
+        return_set.append({"iddiscipline": iddiscipline,
                            "discipline_name": discipline_name,
                            "studio_name": studio_name})
 
@@ -82,22 +82,22 @@ def read_disciplines():
 
 @app.get("/studios")
 def read_studios():
-    cnx = mysql.connector.connect(user='root', password='root',
+    cnx = mysql.connector.connect(user='root', password='Deb@launch',
                                   host='127.0.0.1',
                                   database='pytest_workshop')
 
     cursor = cnx.cursor()
 
     return_set = []
-    read_consultant_query = "SELECT idstudios, studio_name FROM pytest_workshop.studios"
+    read_consultant_query = "SELECT idstudio, studio_name FROM pytest_workshop.studios"
 
     # Execute and Print consultant information
     cursor.execute(read_consultant_query)
 
-    for (idstudios, studio_name) in cursor:
-        print(f"{idstudios} {studio_name}")
+    for (idstudio, studio_name) in cursor:
+        print(f"{idstudio} {studio_name}")
 
-        return_set.append({"idstudios": idstudios,
+        return_set.append({"idstudio": idstudio,
                            "studio_name": studio_name})
 
     results = {"studios": return_set}
@@ -106,7 +106,7 @@ def read_studios():
 
 @app.post("/consultants/post")
 def create_consultants(consultant: Consultant):
-    cnx = mysql.connector.connect(user='root', password='root',
+    cnx = mysql.connector.connect(user='root', password='Deb@launch',
                                   host='127.0.0.1',
                                   database='pytest_workshop')
 
@@ -136,7 +136,7 @@ def create_consultants(consultant: Consultant):
 
 @app.post("/disciplines/post")
 async def create_disciplines(discipline: Discipline):
-    cnx = mysql.connector.connect(user='root', password='root',
+    cnx = mysql.connector.connect(user='root', password='Deb@launch',
                                   host='127.0.0.1',
                                   database='pytest_workshop')
 
@@ -163,7 +163,7 @@ async def create_disciplines(discipline: Discipline):
 
 @app.post("/studios/post")
 async def create_studios(studio: Studio):
-    cnx = mysql.connector.connect(user='root', password='root',
+    cnx = mysql.connector.connect(user='root', password='Deb@launch',
                                   host='127.0.0.1',
                                   database='pytest_workshop')
 
@@ -186,7 +186,7 @@ async def create_studios(studio: Studio):
 
 @app.put("/disciplines/put")
 async def update_disciplines(discipline: Discipline):
-    cnx = mysql.connector.connect(user='root', password='root',
+    cnx = mysql.connector.connect(user='root', password='Deb@launch',
                                   host='127.0.0.1',
                                   database='pytest_workshop')
 
@@ -213,7 +213,7 @@ async def update_disciplines(discipline: Discipline):
 
 @app.delete("/studios/delete")
 async def update_studios(studio: Studio):
-    cnx = mysql.connector.connect(user='root', password='root',
+    cnx = mysql.connector.connect(user='root', password='Deb@launch',
                                   host='127.0.0.1',
                                   database='pytest_workshop')
 
