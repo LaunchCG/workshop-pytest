@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="initial setup">
-      <change afterPath="$PROJECT_DIR$/api/test_getapi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/test_postapi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/pages/sauce_labs_login_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/pages/sauce_labs_login_page_locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/tests/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/tests/tests/test_sauce_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/workshop_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/workshop_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/pytest_workshop_create_seed.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/pytest_workshop_create_seed.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/pytest_workshop_seed.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/pytest_workshop_seed.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -363,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722236500243</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="initial setup">
+      <option name="closed" value="true" />
+      <created>1722405782955</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1722405782955</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="UnknownFeatures">
