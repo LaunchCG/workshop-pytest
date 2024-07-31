@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="Working with APIs">
-      <change afterPath="$PROJECT_DIR$/test_api_delete_studios.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_api_post_disciplines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_api_put_disciplines.py" afterDir="false" />
+    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="Working with APIs - Finished">
+      <change afterPath="$PROJECT_DIR$/pythonlearning/fstrings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_web/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_web/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_web/page_objects/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_web/page_objects/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_web/page_objects/pages/sauce_lab_login_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_web/page_objects/pages/sauce_lab_login_page_locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_web/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_web/tests/test_sauce_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PytestWorkshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PytestWorkshop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_api_get_studios.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api_get_studios.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDD/Features/samplecode.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/Features/samplecode.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDD/steps/StepDefinations.py" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/steps/StepDefinations.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +54,9 @@
     &quot;accountId&quot;: &quot;dfddb6c0-96d5-4acc-8aa6-2b96fcb8cd34&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pythonlearning/fstrings.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -59,75 +69,83 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Behave.samplecode.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Dependency.TestDependency.test_openApp.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Orderingwithmark.TestClass.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Orderingwithmarkrun.TestClass.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Orderingwithmarkrun.TestClass.test_methodA.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Orderingwithmarkrun.TestClass.test_methodE.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Parallel.TestLogin.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Parallel.TestLogin.test_login_chrome.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Skipping.TestClass.test_LoginByEmail.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api.test_get.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api_get_consultants.test_get.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api_get_disciplines.test_get.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api_get_studios.test_get.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api_get_studios.test_post.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_db_insert.test_create_new_user.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_one.TestClass.test_one.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_two.TestClass.test_one.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_Parallel.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_api.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_api_get_disciplines.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_api_get_studios.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in testfile1.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FirstTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FirstTestEdge.executor&quot;: &quot;Run&quot;,
-    &quot;Python.collections.executor&quot;: &quot;Run&quot;,
-    &quot;Python.collections2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.collectionspractise (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.firsttestcase.executor&quot;: &quot;Run&quot;,
-    &quot;Python.functionsinpy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.inheritance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.oops.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practisePython.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;PradeepEdaraJuly2024&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PradeepKumarReddyEda/PycharmProjects/workshop-pytest&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Behave.samplecode.feature.executor": "Run",
+    "Python tests.Python tests for test_Dependency.TestDependency.test_openApp.executor": "Run",
+    "Python tests.Python tests for test_Orderingwithmark.TestClass.executor": "Run",
+    "Python tests.Python tests for test_Orderingwithmarkrun.TestClass.executor": "Run",
+    "Python tests.Python tests for test_Orderingwithmarkrun.TestClass.test_methodA.executor": "Run",
+    "Python tests.Python tests for test_Orderingwithmarkrun.TestClass.test_methodE.executor": "Run",
+    "Python tests.Python tests for test_Parallel.TestLogin.executor": "Run",
+    "Python tests.Python tests for test_Parallel.TestLogin.test_login_chrome.executor": "Run",
+    "Python tests.Python tests for test_Skipping.TestClass.test_LoginByEmail.executor": "Run",
+    "Python tests.Python tests for test_api.test_get.executor": "Run",
+    "Python tests.Python tests for test_api_get_consultants.test_get.executor": "Run",
+    "Python tests.Python tests for test_api_get_disciplines.test_get.executor": "Run",
+    "Python tests.Python tests for test_api_get_studios.test_get.executor": "Run",
+    "Python tests.Python tests for test_api_get_studios.test_post.executor": "Run",
+    "Python tests.Python tests for test_db_insert.test_create_new_user.executor": "Run",
+    "Python tests.Python tests for test_one.TestClass.test_one.executor": "Run",
+    "Python tests.Python tests for test_sauce_demo.TestLogin.test_login_edge.executor": "Run",
+    "Python tests.Python tests for test_sauce_demo.test_sauce_demo.executor": "Run",
+    "Python tests.Python tests for test_two.TestClass.test_one.executor": "Run",
+    "Python tests.Python tests in test_Parallel.py.executor": "Run",
+    "Python tests.Python tests in test_api.py.executor": "Run",
+    "Python tests.Python tests in test_api_get_disciplines.py.executor": "Run",
+    "Python tests.Python tests in test_api_get_studios.py.executor": "Run",
+    "Python tests.Python tests in test_sauce_demo.py.executor": "Run",
+    "Python tests.Python tests in testfile1.py.executor": "Run",
+    "Python.FirstTestCase.executor": "Run",
+    "Python.FirstTestEdge.executor": "Run",
+    "Python.collections.executor": "Run",
+    "Python.collections2.executor": "Run",
+    "Python.collectionspractise (1).executor": "Run",
+    "Python.firsttestcase.executor": "Run",
+    "Python.fstrings.executor": "Run",
+    "Python.functionsinpy.executor": "Run",
+    "Python.inheritance.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.oops.executor": "Run",
+    "Python.practisePython.executor": "Run",
+    "Python.test_db_selectquery.executor": "Run",
+    "Python.test_db_simpleselect.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "PradeepEdaraJuly2024",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/PradeepKumarReddyEda/PycharmProjects/workshop-pytest/test_web/page_objects/pages",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\test_web\page_objects\pages" />
       <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest" />
       <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\api" />
       <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\pytest\modules" />
       <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\pytest" />
-      <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\pythonlearning" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\test_web" />
+      <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest" />
+      <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\test_database" />
+      <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\test_api" />
       <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\pytest\modules" />
-      <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\pytest" />
-      <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\BDD" />
-      <recent name="C:\Users\PradeepKumarReddyEda\PycharmProjects\workshop-pytest\pythonlearning" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for test_sauce_demo.test_sauce_demo">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PytestWorkshop" />
       <option name="ENV_FILES" value="" />
@@ -151,101 +169,102 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_api.test_api_get_consultants.test_get" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="test_db_simpleselect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PytestWorkshop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_database" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_database/test_db_simpleselect.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_sauce_demo.TestLogin.test_login_edge" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PytestWorkshop" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_web/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api.test_api_get_consultants.test_get&quot;" />
+      <option name="_new_target" value="&quot;test_sauce_demo.TestLogin.test_login_edge&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_api.test_api_get_studios" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_sauce_demo.test_sauce_demo" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PytestWorkshop" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_web/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api.test_api_get_studios&quot;" />
+      <option name="_new_target" value="&quot;test_sauce_demo.test_sauce_demo&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_api.test_api_get_studios.test_get" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_Parallel.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PytestWorkshop" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytest/modules" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api.test_api_get_studios.test_get&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_api_get_disciplines.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PytestWorkshop" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_api/test_api_get_disciplines.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pytest/modules/test_Parallel.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_api_get_studios.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_sauce_demo.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PytestWorkshop" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_web/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_api/test_api_get_studios.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_web/tests/test_sauce_demo.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_api.test_api_get_studios" />
-        <item itemvalue="Python tests.Python tests for test_api.test_api_get_studios.test_get" />
-        <item itemvalue="Python tests.Python tests in test_api_get_studios.py" />
-        <item itemvalue="Python tests.Python tests in test_api_get_disciplines.py" />
-        <item itemvalue="Python tests.Python tests for test_api.test_api_get_consultants.test_get" />
+        <item itemvalue="Python tests.Python tests for test_sauce_demo.test_sauce_demo" />
+        <item itemvalue="Python tests.Python tests in test_sauce_demo.py" />
+        <item itemvalue="Python tests.Python tests for test_sauce_demo.TestLogin.test_login_edge" />
+        <item itemvalue="Python tests.Python tests in test_Parallel.py" />
+        <item itemvalue="Python.test_db_simpleselect" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
-        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
       </set>
     </attachedChunks>
   </component>
@@ -274,7 +293,10 @@
       <workItem from="1721667395011" duration="2097000" />
       <workItem from="1721725294285" duration="8425000" />
       <workItem from="1721828131985" duration="1669000" />
-      <workItem from="1721890173264" duration="6296000" />
+      <workItem from="1721890173264" duration="10156000" />
+      <workItem from="1721916058672" duration="2814000" />
+      <workItem from="1721960100689" duration="80000" />
+      <workItem from="1721960233207" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup">
       <option name="closed" value="true" />
@@ -476,7 +498,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721839258745</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Working with APIs - Finished">
+      <option name="closed" value="true" />
+      <created>1721899414227</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1721899414227</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Working with APIs - Finished">
+      <option name="closed" value="true" />
+      <created>1721899450395</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1721899450395</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,16 +544,18 @@
     <MESSAGE value="Adding DB Testing - Update and Delete Tests" />
     <MESSAGE value="Adding API Testing" />
     <MESSAGE value="Working with APIs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working with APIs" />
+    <MESSAGE value="Working with APIs - Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working with APIs - Finished" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workshop_pytest$FirstTestEdge.coverage" NAME="FirstTestEdge Coverage Results" MODIFIED="1720892843985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonlearning" />
+    <SUITE FILE_PATH="coverage/workshop_pytest$fstrings.coverage" NAME="fstrings Coverage Results" MODIFIED="1721900489295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonlearning" />
     <SUITE FILE_PATH="coverage/workshop_pytest$firsttestcase.coverage" NAME="firsttestcase Coverage Results" MODIFIED="1720787997758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonlearning" />
     <SUITE FILE_PATH="coverage/workshop_pytest$collections2.coverage" NAME="collections2 Coverage Results" MODIFIED="1720531955387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/workshop_pytest$collectionspractise__1_.coverage" NAME="collectionspractise (1) Coverage Results" MODIFIED="1720519188176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/workshop_pytest$collections.coverage" NAME="collections Coverage Results" MODIFIED="1720513023541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/workshop_pytest$samplecode_feature.coverage" NAME="samplecode.feature Coverage Results" MODIFIED="1720854366684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/workshop_pytest$.coverage" NAME=" Coverage Results" MODIFIED="1721839657395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/workshop_pytest$samplecode_feature.coverage" NAME="samplecode.feature Coverage Results" MODIFIED="1720854366684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/workshop_pytest$practisePython.coverage" NAME="practisePython Coverage Results" MODIFIED="1720527861432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/workshop_pytest$inheritance.coverage" NAME="inheritance Coverage Results" MODIFIED="1720708874398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonlearning" />
     <SUITE FILE_PATH="coverage/workshop_pytest$main.coverage" NAME="main Coverage Results" MODIFIED="1720510609889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

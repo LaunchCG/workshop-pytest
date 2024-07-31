@@ -1,0 +1,16 @@
+import pytest
+from selenium.webdriver import Chrome
+from selenium import webdriver
+
+@pytest.fixture(scope="function")
+def browser():
+    driver = webdriver.Chrome()
+    driver.maximize_window()
+    driver.set_page_load_timeout(5000)
+
+    env_url = 'https://www.saucedemo.com'
+    driver.get(env_url)
+
+    yield driver
+
+    driver.quit()

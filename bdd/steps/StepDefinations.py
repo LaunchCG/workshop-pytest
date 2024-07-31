@@ -2,6 +2,7 @@ import time
 from behave import *
 from selenium import webdriver
 
+
 @given('open browser')
 def step_impl(context):
     context.browser = webdriver.Chrome()
@@ -22,4 +23,3 @@ def step_impl(context):
     else:
         print("Login Test Failed")
     context.browser.close()
-
