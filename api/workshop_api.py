@@ -1,25 +1,33 @@
+import os
+from dotenv import load_dotenv
 from fastapi import FastAPI
+from fastapi.responses import JSONResponse
 import mysql.connector
-from pydantic import BaseModel
+from mysql.connector import Error
+from schemas import Consultant, Discipline, Studio
+
+print('loading environment variables...')
+load_dotenv()
+
+db_user = os.getenv('DATABASE_USER')
+db_password = os.getenv('DATABASE_PASSWORD')
+db_host = os.getenv('DATABASE_HOST')
+db_name = os.getenv('DATABASE_NAME')
+
+
+def get_db_cursor():
+    cnx = mysql.connector.connect(user=db_user, password=db_password,host=db_host, database=db_name)
+    cursor = cnx.cursor()
+    return cursor, cnx
+
+def terminate_db_connection(cnx, cursor):
+        if cursor is not None and 'cursor' in locals():
+            cursor.close()
+        if cnx is not None and cnx.is_connected():
+            cnx.close()
+
 
 app = FastAPI()
-
-
-class Consultant(BaseModel):
-    consultant_name: str
-    consultant_title: str | None = None
-    consultant_location: str | None = None
-    consultant_discipline: str
-
-
-class Discipline(BaseModel):
-    discipline_name: str
-    studio_name: str
-
-
-class Studio(BaseModel):
-    studio_name: str
-
 
 @app.get("/")
 def read_root():
@@ -28,206 +36,233 @@ def read_root():
 
 @app.get("/consultants")
 def read_consultants():
-    cnx = mysql.connector.connect(user='root', password='root',
-                                  host='127.0.0.1',
-                                  database='pytest_workshop')
+    try:
+        cursor = get_db_cursor()
 
-    cursor = cnx.cursor()
+        return_set = []
+        read_consultant_query = ("SELECT idconsultant, consultant_name, consultant_title, consultant_location,"
+                                " consultant_discipline FROM pytest_workshop.consultants")
 
-    return_set = []
-    read_consultant_query = ("SELECT idconsultant, consultant_name, consultant_title, consultant_location,"
-                             " consultant_discipline FROM pytest_workshop.consultants")
+        # Execute and Print consultant information
+        cursor.execute(read_consultant_query)
 
-    # Execute and Print consultant information
-    cursor.execute(read_consultant_query)
+        for (idconsultant, consultant_name, consultant_title, consultant_location, consultant_discipline) in cursor:
+            print(f"{idconsultant} {consultant_name} - {consultant_title} is located in {consultant_location} "
+                f"and is part of the {consultant_discipline} Discipline")
 
-    for (idconsultant, consultant_name, consultant_title, consultant_location, consultant_discipline) in cursor:
-        print(f"{idconsultant} {consultant_name} - {consultant_title} is located in {consultant_location} "
-              f"and is part of the {consultant_discipline} Discipline")
+            return_set.append({"idconsultant": idconsultant,
+                            "consultant_name": consultant_name,
+                            "consultant_title": consultant_title,
+                            "consultant_location": consultant_location,
+                            "consultant_discipline": consultant_discipline})
+        
+        terminate_db_connection(cursor)
 
-        return_set.append({"idconsultant": idconsultant,
-                           "consultant_name": consultant_name,
-                           "consultant_title": consultant_title,
-                           "consultant_location": consultant_location,
-                           "consultant_discipline": consultant_discipline})
+        response = {"consultants": return_set}
+        return response
 
-    results = {"consultants": return_set}
-    return results
+    except Error as e:
+        print(f"Error: {e}")
+        return JSONResponse(content=f"Database error: {e}", status_code=500)
 
 
 @app.get("/disciplines")
 def read_disciplines():
-    cnx = mysql.connector.connect(user='root', password='root',
-                                  host='127.0.0.1',
-                                  database='pytest_workshop')
+    try:
+        cursor = get_db_cursor()
 
-    cursor = cnx.cursor()
+        return_set = []
+        read_consultant_query = "SELECT iddisciplines, discipline_name, studio_name FROM pytest_workshop.disciplines"
 
-    return_set = []
-    read_consultant_query = "SELECT iddisciplines, discipline_name, studio_name FROM pytest_workshop.disciplines"
+        # Execute and Print consultant information
+        cursor.execute(read_consultant_query)
 
-    # Execute and Print consultant information
-    cursor.execute(read_consultant_query)
+        for (iddisciplines, discipline_name, studio_name) in cursor:
+            print(f"{iddisciplines} {discipline_name} is in the {studio_name} studio")
 
-    for (iddisciplines, discipline_name, studio_name) in cursor:
-        print(f"{iddisciplines} {discipline_name} is in the {studio_name} studio")
+            return_set.append({"iddisciplines": iddisciplines,
+                            "discipline_name": discipline_name,
+                            "studio_name": studio_name})
+        
+        terminate_db_connection(cursor)
 
-        return_set.append({"iddisciplines": iddisciplines,
-                           "discipline_name": discipline_name,
-                           "studio_name": studio_name})
+        response = {"disciplines": return_set}
+        return response
 
-    results = {"disciplines": return_set}
-    return results
+    except Error as e:
+        print(f"Error: {e}")
+        return JSONResponse(content=f"Database error: {e}", status_code=500)
 
 
 @app.get("/studios")
 def read_studios():
-    cnx = mysql.connector.connect(user='root', password='root',
-                                  host='127.0.0.1',
-                                  database='pytest_workshop')
+    try:
+        cursor = get_db_cursor()
 
-    cursor = cnx.cursor()
+        return_set = []
+        read_consultant_query = "SELECT idstudios, studio_name FROM pytest_workshop.studios"
 
-    return_set = []
-    read_consultant_query = "SELECT idstudios, studio_name FROM pytest_workshop.studios"
+        # Execute and Print consultant information
+        cursor.execute(read_consultant_query)
 
-    # Execute and Print consultant information
-    cursor.execute(read_consultant_query)
+        for (idstudios, studio_name) in cursor:
+            print(f"{idstudios} {studio_name}")
 
-    for (idstudios, studio_name) in cursor:
-        print(f"{idstudios} {studio_name}")
+            return_set.append({"idstudios": idstudios,
+                            "studio_name": studio_name})
+        
+        terminate_db_connection(cursor)
 
-        return_set.append({"idstudios": idstudios,
-                           "studio_name": studio_name})
+        response = {"studios": return_set}
+        return response
 
-    results = {"studios": return_set}
-    return results
+    except Error as e:
+        print(f"Error: {e}")
+        return JSONResponse(content=f"Database error: {e}", status_code=500)
 
 
 @app.post("/consultants/post")
 def create_consultants(consultant: Consultant):
-    cnx = mysql.connector.connect(user='root', password='root',
-                                  host='127.0.0.1',
-                                  database='pytest_workshop')
+    try:
+        cursor, cnx = get_db_cursor()
 
-    cursor = cnx.cursor()
+        add_consultant = ("INSERT INTO consultants "
+                        "(consultant_name, consultant_title, consultant_location, consultant_discipline) "
+                        "VALUES (%s, %s, %s, %s)")
 
-    add_consultant = ("INSERT INTO consultants "
-                      "(consultant_name, consultant_title, consultant_location, consultant_discipline) "
-                      "VALUES (%s, %s, %s, %s)")
+        data_consultant = (consultant.consultant_name, consultant.consultant_title,
+                        consultant.consultant_location, consultant.consultant_discipline)
 
-    data_consultant = (consultant.consultant_name, consultant.consultant_title,
-                       consultant.consultant_location, consultant.consultant_discipline)
+        # Insert new consultant
+        cursor.execute(add_consultant, data_consultant)
 
-    # Insert new consultant
-    cursor.execute(add_consultant, data_consultant)
+        # Make sure data is committed to the database and close connection is necessary
+        print('comitting transaction...')
+        cnx.commit()
+        print('closing database connection...')
+        terminate_db_connection(cnx, cursor)
 
-    # Make sure data is committed to the database
-    cnx.commit()
+        response = {"consultant_name_return": consultant.consultant_name,
+                "consultant_title_return": consultant.consultant_title,
+                "consultant_location_return": consultant.consultant_location,
+                "consultant_discipline_return": consultant.consultant_discipline}
+        
+        return JSONResponse(content=response, status_code=200)
 
-    cursor.close()
-    cnx.close()
-
-    return {"consultant_name_return": consultant.consultant_name,
-            "consultant_title_return": consultant.consultant_title,
-            "consultant_location_return": consultant.consultant_location,
-            "consultant_discipline_return": consultant.consultant_discipline}
+    except Error as e:
+        print(f"Error: {e}")
+        return JSONResponse(content=f"Database error: {e}", status_code=500)
 
 
 @app.post("/disciplines/post")
 async def create_disciplines(discipline: Discipline):
-    cnx = mysql.connector.connect(user='root', password='root',
-                                  host='127.0.0.1',
-                                  database='pytest_workshop')
 
-    cursor = cnx.cursor()
+    try:
+        cursor, cnx = get_db_cursor()
 
-    add_discipline = ("INSERT INTO disciplines "
-                      "(discipline_name, studio_name) "
-                      "VALUES (%s, %s)")
+        add_discipline = ("INSERT INTO disciplines "
+                        "(discipline_name, studio_name) "
+                        "VALUES (%s, %s)")
 
-    data_discipline = (discipline.discipline_name, discipline.studio_name)
+        data_discipline = (discipline.discipline_name, discipline.studio_name)
 
-    # Insert new consultant
-    cursor.execute(add_discipline, data_discipline)
+        # Insert new consultant
+        cursor.execute(add_discipline, data_discipline)
 
-    # Make sure data is committed to the database
-    cnx.commit()
+        # Make sure data is committed to the database and close connection is necessary
+        print('comitting transaction...')
+        cnx.commit()
+        print('closing database connection...')
+        terminate_db_connection(cnx, cursor)
 
-    cursor.close()
-    cnx.close()
-
-    return {"discipline_name_returned": discipline.discipline_name,
-            "studio_name_returned": discipline.studio_name}
+        response = {"discipline_name_returned": discipline.discipline_name,
+                "studio_name_returned": discipline.studio_name}
+        
+        return JSONResponse(content=response, status_code=200)
+    
+    except Error as e:
+        print(f"Error: {e}")
+        return JSONResponse(content=f"Database error: {e}", status_code=500)
 
 
 @app.post("/studios/post")
 async def create_studios(studio: Studio):
-    cnx = mysql.connector.connect(user='root', password='root',
-                                  host='127.0.0.1',
-                                  database='pytest_workshop')
 
-    cursor = cnx.cursor()
+    try:
+        cursor, cnx = get_db_cursor()
 
-    add_studio = f"INSERT INTO studios (studio_name) VALUES ('{studio.studio_name}')"
-    print(add_studio)
+        add_studio = f"INSERT INTO studios (studio_name) VALUES ('{studio.studio_name}')"
+        print(add_studio)
 
-    # Insert new consultant
-    cursor.execute(add_studio)
+        # Insert new consultant
+        cursor.execute(add_studio)
 
-    # Make sure data is committed to the database
-    cnx.commit()
+        # Make sure data is committed to the database and close connection is necessary
+        print('comitting transaction...')
+        cnx.commit()
+        print('closing database connection...')
+        terminate_db_connection(cnx, cursor)
 
-    cursor.close()
-    cnx.close()
+        response = {"studio_name_created": studio.studio_name}
 
-    return {"studio_name_created": studio.studio_name}
+        return JSONResponse(content=response, status_code=200)
+
+    except Error as e:
+        print(f"Error: {e}")
+        return JSONResponse(content=f"Database error: {e}", status_code=500)
 
 
 @app.put("/disciplines/put")
 async def update_disciplines(discipline: Discipline):
-    cnx = mysql.connector.connect(user='root', password='root',
-                                  host='127.0.0.1',
-                                  database='pytest_workshop')
 
-    cursor = cnx.cursor()
+    try:
+        cursor, cnx = get_db_cursor()
 
-    update_discipline = ("UPDATE disciplines SET "
-                         "studio_name = %s "
-                         "WHERE discipline_name = %s")
+        update_discipline = ("UPDATE disciplines SET "
+                            "studio_name = %s "
+                            "WHERE discipline_name = %s")
 
-    data_discipline = (discipline.studio_name, discipline.discipline_name)
+        data_discipline = (discipline.studio_name, discipline.discipline_name)
 
-    # Insert new consultant
-    cursor.execute(update_discipline, data_discipline)
+        # Insert new consultant
+        cursor.execute(update_discipline, data_discipline)
 
-    # Make sure data is committed to the database
-    cnx.commit()
+        # Make sure data is committed to the database and close connection is necessary
+        print('comitting transaction...')
+        cnx.commit()
+        print('closing database connection...')
+        terminate_db_connection(cnx, cursor)
 
-    cursor.close()
-    cnx.close()
+        response = {"discipline_name_updated": discipline.discipline_name, 
+                    "studio_name_updated": discipline.studio_name}
+        
+        return JSONResponse(content=response, status_code=200)
 
-    return {"discipline_name_updated": discipline.discipline_name,
-            "studio_name_updated": discipline.studio_name}
+    except Error as e:
+        print(f"Error: {e}")
+        return JSONResponse(content=f"Database error: {e}", status_code=500)
 
 
 @app.delete("/studios/delete")
 async def update_studios(studio: Studio):
-    cnx = mysql.connector.connect(user='root', password='root',
-                                  host='127.0.0.1',
-                                  database='pytest_workshop')
 
-    cursor = cnx.cursor()
+    try:
+        cursor, cnx = get_db_cursor()
+        delete_studio = f"DELETE FROM studios WHERE studio_name = '{studio.studio_name}'"
+        # Insert new consultant
+        cursor.execute(delete_studio)
 
-    delete_studio = f"DELETE FROM studios WHERE studio_name = '{studio.studio_name}'"
+        # Make sure data is committed to the database and close connection is necessary
+        print('comitting transaction...')
+        cnx.commit()
+        print('closing database connection...')
+        terminate_db_connection(cnx, cursor)
 
-    # Insert new consultant
-    cursor.execute(delete_studio)
+        response = {"studio_name_removed": studio.studio_name}
 
-    # Make sure data is committed to the database
-    cnx.commit()
+        return JSONResponse(content=response, status_code=200)
+    
+    except Error as e:
+        print(f"Error: {e}")
+        return JSONResponse(content=f"Database error: {e}", status_code=500)
 
-    cursor.close()
-    cnx.close()
-
-    return {"studio_name_removed": studio.studio_name}
