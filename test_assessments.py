@@ -1,3 +1,4 @@
+import mysql.connector
 import pytest
 import requests
 
@@ -16,7 +17,9 @@ Good luck!!!
 Units 3 & 4 tests
 Make these tests pass and follow any additional instructions as you go through the tests 
 """
-
+@pytest.fixture
+def secret_number():
+    return 9
 
 def test_addition(secret_number):
     assert secret_number + 1 == 10
@@ -27,7 +30,7 @@ def test_subtraction(secret_number):
 
 
 def test_divide(secret_number):
-    assert secret_number / 3 == 2
+    assert secret_number / 3 == 3
 
 
 # create a marker to run only the multiply tests
@@ -73,7 +76,7 @@ def test_create_new_consultant():
                       "(consultant_name, consultant_title, consultant_location, consultant_discipline) "
                       "VALUES (%s, %s, %s, %s)")
 
-    data_consultant = ('Joe Cool Tester', 'Quality Assurance Engineer', 'USA', 'Test & Test Automation')
+    data_consultant = ('Joe Cool Tester 1', 'Quality Assurance Engineer', 'USA', 'Test & Test Automation')
 
     cursor.execute(add_consultant, data_consultant)
 
@@ -102,7 +105,7 @@ def test_read_new_consultant():
         if consultant_name == 'Matt Eakin':
             assert consultant_title == 'Quality Assurance Engineer'
             assert consultant_location == 'USA'
-            assert consultant_discipline == 'Test & Test Automation Discipline'
+            assert consultant_discipline == 'Test & Test Automation'
 
     cursor.close()
     cnx.close()
@@ -125,11 +128,11 @@ def test_post():
     response = requests.post(url, json=new_studio)
     print(response.status_code)
     print(response.json())
-    assert response.status_code == 300
+    assert response.status_code == 200
     assert response.headers["Content-Type"] == "application/json"
 
     data = response.json()
-    assert data["studio_name_created"] == "Another cool Studio"
+    assert data["studio_name_created"] == "My Awesome Studio"
 
 
 """
