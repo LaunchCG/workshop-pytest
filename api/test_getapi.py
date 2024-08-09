@@ -45,7 +45,7 @@ import requests
 def test_post():
     url = "http://127.0.0.1:8000/studios/post"
     new_studio = {
-    "studio_name": "My Awesome Studio"
+      "studio_name": "My Favorite Studio"
     }
     response = requests.post(url, json=new_studio)
     print(response.status_code)
@@ -54,4 +54,4 @@ def test_post():
     assert response.headers["Content-Type"] == "application/json"
 
     data = response.json()
-    assert data["studio_name_created"] == "My Awesome Studio"
+    assert data["studio_name_created"] == "My Favorite Studio"

@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="WebTesting">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="Adding assesments">
       <change beforePath="$PROJECT_DIR$/api/test_getapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/test_getapi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/workshop_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/workshop_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -385,7 +383,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722850939964</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Adding assesments">
+      <option name="closed" value="true" />
+      <created>1723197646802</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1723197646803</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -405,7 +411,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial setup" />
     <MESSAGE value="WebTesting" />
-    <option name="LAST_COMMIT_MESSAGE" value="WebTesting" />
+    <MESSAGE value="Adding assesments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding assesments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
