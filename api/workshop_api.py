@@ -1,3 +1,4 @@
+import requests
 from fastapi import FastAPI
 import mysql.connector
 from pydantic import BaseModel
@@ -231,3 +232,17 @@ async def update_studios(studio: Studio):
     cnx.close()
 
     return {"studio_name_removed": studio.studio_name}
+
+def test_post():
+    url = "http://127.0.0.1:8000/studios/post"
+    new_studio = {
+        "studio_name": "My Awesome Studio"
+    }
+    response = requests.post(url, json=new_studio)
+    print(response.status_code)
+    print(response.json())
+    assert response.status_code == 300
+    assert response.headers["Content-Type"] == "application/json"
+
+    data = response.json()
+    assert data["studio_name_created"] == "Another cool Studio"

@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="initial setup">
+    <list default="true" id="ee3164f0-84dd-415f-ad38-7d30fcab1e8b" name="Changes" comment="WebTesting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/test_getapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/test_getapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/workshop_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/workshop_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +77,7 @@
       <recent name="C:\Users\DKarmakar\PycharmProjects\workshop-pytest\practice-framework\practice-database" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PytestWorkshop" />
       <option name="ENV_FILES" value="" />
@@ -375,7 +377,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722424199706</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="WebTesting">
+      <option name="closed" value="true" />
+      <created>1722850939964</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1722850939964</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -394,7 +404,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial setup" />
+    <MESSAGE value="WebTesting" />
+    <option name="LAST_COMMIT_MESSAGE" value="WebTesting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
